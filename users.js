@@ -13,7 +13,7 @@ module.exports.signup = async(req, res) =>{
         if(err){
             return next(err);
         }
-        req.flash("success", "Welcome to WanderLust!");
+        req.flash("success", "Welcome to my Library!");
        res.redirect("/listings");
      });
     }catch (e) {
